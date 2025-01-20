@@ -1,10 +1,15 @@
 # 課題３提出-V1
 
+##起動できました：
+![deploy success](deploy.png)
+
 ## 1. AP サーバーについて調べる
 
 > AP サーバーの名前とバージョンを確認してみましょう。
 
 ### Ans: Puma, 6.4.2
+![puma version](deploy-2.png)
+
 
 > AP サーバーを終了させた場合、引き続きアクセスできますか？
 
@@ -16,10 +21,11 @@
 いるバージョンはいくつか確認してみましょう。
 
 ### Ans: Mysql 5.5.8
-
+![db version](database.png)
 >  DB サーバーを終了させた場合、引き続きアクセスできますか？
 
 ### Ans: できませんでした。
+![db out](database-3.png)
 
 > Rails の構成管理ツールの名前は何でしたか？
 
