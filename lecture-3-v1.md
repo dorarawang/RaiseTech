@@ -19,8 +19,7 @@
 
 > サンプルアプリケーションで使った DB サーバー（DB エンジン）の名前と、<br/> 今 Cloud9 で動作しているバージョンはいくつか確認してみましょう。
 
-**Ans: Mysql2 8.4.3**
-![db version](database-4.png)
+**Ans: Mysql 8.4.3**
 ![db version](database-5.png)
 
 >  DB サーバーを終了させた場合、引き続きアクセスできますか？
