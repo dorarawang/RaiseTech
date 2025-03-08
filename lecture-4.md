@@ -4,3 +4,11 @@
 
 ![db out](L4-screenshot2.png)
 
+## 補足：
+作成したリソースのエビデンスを追加いたしました。
+* **EC2インスタンスーRaisetech-L4:**
+![db out](L4-screenshot3.png)
+* **RDS:**
+![db out](L4-screenshot4.png)
+* **VPC:**
+![db out](L4-screenshot5.png)
