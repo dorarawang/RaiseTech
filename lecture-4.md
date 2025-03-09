@@ -12,3 +12,18 @@
 ![db out](L4-screenshot4.png)
 * **VPC:**
 ![db out](L4-screenshot5.png)
+
+
+## 補足20250309
+* **作成したVPCのサブネットにEC2が作成されていること:**
+![db out](L4-screenshot6.png)
+
+* **作成したVPCのサブネットにRDSが作成されていること:**
+![db out](L4-screenshot7.png)
+
+* **EC2にアタッチしているsecurity group(rule)の設定:**
+![db out](L4-screenshot8.png)
+
+* **RDSにアタッチしているsecurity group(rule)の設定:**
+![db out](L4-screenshot9.png)
+
