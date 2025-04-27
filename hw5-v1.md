@@ -63,21 +63,27 @@ ALBのdomain nameでアクセスできるように調整が必要でした。\
 3. EC2にIAM roleを追加しました。（AmazonS3FullAccess policyを追加した)
 ![db out](<L5-HW5-Attach IAM role to EC2.png>)
 ![db out](<L5-HW5-Add IAM role.png>)
-5. `config/storage.yml`を以下のように編集しました。
+
+4. `config/storage.yml`を以下のように編集しました。
+
 ![db out](<L5-HW5-Add S3.png>)
-6. `config/environments/development.rb`にactive storageを**amazon**に指定しました:
+
+5. `config/environments/development.rb`にactive storageを**amazon**に指定しました:
+
 ![db out](<L5-HW5-Add S3-2.png>)
-7. 写真はアップロードできましたが、画像がちゃんと表示されていなく、画像を開くようとしたら、エラーが出てきました。
+
+6. 写真はアップロードできましたが、画像がちゃんと表示されていなく、画像を開くようとしたら、エラーが出てきました。
 >「ActiveStorage::Representations::RedirectController#show
 Could not open library 'vips.so.42': vips.so.42: cannot open shared object file: No such file or directory.
 Could not open library 'libvips.so.42': libvips.so.42: cannot open shared object file: No such file or directory.」
 
-画像を処理するlibraryが欠けていましたようです。\
+画像を処理するlibraryが欠けていましたようです。
 
 講師と相談したら、**Amazon linux 2023**の環境ではインストール方法の情報が少ないことがわかりました。\
 ただ、アドバイスいただいたキーワードで検索してみたら、下記のサイトに直接インストールする方法もありまして、解決できました。
 *https://github.com/amazonlinux/amazon-linux-2023/issues/295*
 
+### S3の動作確認：
 1. サイト上でfruitsを追加しました。
 ![db out](<L5-HW5-Add mango.png>)
 2. S3上に追加したことを確認しました。
