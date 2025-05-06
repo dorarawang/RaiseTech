@@ -49,9 +49,11 @@ RDSの利用について、利用者数が平均１日三人程度で見積も�
 
 ### 修正メモ-v3：
 ec2のpayment optionを利用する分のみ請求されるプランに変更しました。（Saving plan→On-demand）\
-[見積もりv3-リンク](https://calculator.aws/#/estimate?id=78e9f201c86f6a6e79065bf82e1c519ba0e167c5)
+~[見積もりv3-リンク](https://calculator.aws/#/estimate?id=78e9f201c86f6a6e79065bf82e1c519ba0e167c5)~
 
-
+### 修正メモ-v4：
+データーの保存先のRDSを復元しました。\
+[見積もりv4-リンク](https://calculator.aws/#/estimate?id=2c06d7971306991c67bd4b290b6b178039f62452)
 
 ## 4.　先月の利用料金状況
 0.06ドルほど請求されています。\
