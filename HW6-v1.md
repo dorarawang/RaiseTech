@@ -56,11 +56,11 @@ ec2のpayment optionを利用する分のみ請求されるプランに変更し
 ~[見積もりv4-リンク](https://calculator.aws/#/estimate?id=2c06d7971306991c67bd4b290b6b178039f62452)~
 
 ### 修正メモ-v5：
-不要なのS3-selectをS3から削除しました。
+不要のS3-select(*SQLでS3から特定のデーターを抽出する機能*）をS3から削除しました。
 >S3-select:a feature that lets you run SQL-like queries directly on data stored in S3., such as in:
 >   - CSV files
 >   - JSON files
->   - Apache Parquet files\
+>   - Apache Parquet files
 > 
 >You can query only the specific rows/columns you need, which saves bandwidth and speeds things up.
 
