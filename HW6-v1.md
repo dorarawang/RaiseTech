@@ -53,7 +53,18 @@ ec2のpayment optionを利用する分のみ請求されるプランに変更し
 
 ### 修正メモ-v4：
 データーの保存先のRDSを復元しました。\
-[見積もりv4-リンク](https://calculator.aws/#/estimate?id=2c06d7971306991c67bd4b290b6b178039f62452)
+~[見積もりv4-リンク](https://calculator.aws/#/estimate?id=2c06d7971306991c67bd4b290b6b178039f62452)~
+
+### 修正メモ-v5：
+不要なのS3-selectをS3から削除しました。
+>S3-select:a feature that lets you run SQL-like queries directly on data stored in S3., such as in:
+>   - CSV files
+>   - JSON files
+>   - Apache Parquet files\
+> 
+>You can query only the specific rows/columns you need, which saves bandwidth and speeds things up.
+
+[見積もりv5-リンク](https://calculator.aws/#/estimate?id=bb2b0f90a41ba488089c357a4bc3833d394df5ad)
 
 ## 4.　先月の利用料金状況
 0.06ドルほど請求されています。\
